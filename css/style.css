@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    height: 49px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    margin-left: 31px;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    width: 63px;
+    height: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+    color: #777777;
+}
+
+header p {
+    margin: 0;
+    width: 38px;
+    height: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #AAAAAA;
+}
+
+header img {
+    margin-right: 31px;
+    width: 18px;
+    height: 12px;
+    background: #AAAAAA;
+}
+
+.fotosala1 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 700px;
+    background-image: url("../img/Imagem1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    height: 259px;
+}
+
+.setas {
+    width: 100%;
+    max-width: 700px;
+    height: 259px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.setas2 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 612px;
+    height: 259px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    padding: 0 44px;
+}
+
+.ofertas {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    margin: 37px auto;
+    justify-content: space-between;
+}
+
+.imovel {
+    display: flex;
+    width: 256px;
+    height: 242px;
+    background-color: #EEEEEE;
+    flex-direction: column;
+}
+
+.descricao {
+    margin: 0 auto;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    width: 231px;
+    height: 44px;
+}
+
+.classe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12px;
+ 
+}
+
+.preco {
+    margin: 9px 0;
+    height: 33px;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+    color: #888888;
+}
+
+.tipo1 {
+    background-color: #51D275;
+    border-radius: 10.5px;  
+    margin: 9px 0;
+    width: 56px;
+    height: 21px;
+    font-family: "Ropa Sans";
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.tipo2 {
+    background-color: #DC9730;
+    border-radius: 10.5px;  
+    margin: 9px 0;
+    width: 56px;
+    height: 21px;
+    font-family: "Ropa Sans";
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.descricao {
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    color: #555555;
+}
+
+h2 {
+    font-family: "Ropa Sans";
+    padding-top: 9px;
+    margin-bottom: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    color: #888888;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.industrial {
+    background-color: red;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+    width: 100%;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 13px;
+    margin-top: 0;
+    max-width: 700px;
+    height: 80px;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.modern {
+    background-color: red;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+    width: 100%;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 13px;
+    margin-top: 0;
+    max-width: 700px;
+    height: 80px;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.classic {
+    background-color: red;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+    width: 100%;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 13px;
+    margin-top: 0;
+    max-width: 700px;
+    height: 80px;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.rodape {
+    display: flex;
+    padding: 0 44px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    height: 243px;
+    background: #333333;
+}
+
+.mapa {
+    width: 252px;
+    height: 163px;
+    border-radius: 19px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    height: 163px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    width: 175px;
+    height: 95px;
+
+}
+
+.dadoscontato {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin: 0;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+br {
+    height: 20px;
+}
+
+.socialmedias {
+    width: 98px;
+    height: 24px;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.links {
+    display: flex;
+    width: 98px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
